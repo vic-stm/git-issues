@@ -1,0 +1,9 @@
+{
+  "name": "git-issues",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/git-issues/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project git-issues --web",
+  "targets": {}
+}
