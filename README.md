@@ -10,7 +10,12 @@
 git clone https://github.com/vic-stm/git-issues.git
 ```
 
-2. Instalar las dependencias del proyecto
+2. Entrar a la raíz del proyecto
+```sh
+cd git-issues
+```
+
+3. Instalar las dependencias del proyecto
 ```sh
 npm install
 ```
