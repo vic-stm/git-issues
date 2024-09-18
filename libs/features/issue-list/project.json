@@ -1,0 +1,9 @@
+{
+  "name": "issue-list",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/features/issue-list/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project issue-list --web",
+  "targets": {}
+}

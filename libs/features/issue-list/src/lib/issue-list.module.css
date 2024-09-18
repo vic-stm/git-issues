@@ -1,0 +1,15 @@
+.container {
+  width: 70%;
+}
+
+.container li {
+  list-style-type: none;
+}
+
+.container ul {
+  padding: 0;
+}
+
+.infoMessage {
+  margin-top: 15px;
+}
