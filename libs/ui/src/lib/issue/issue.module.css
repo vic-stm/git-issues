@@ -1,0 +1,55 @@
+.container {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-areas:
+    'userAvatar header'
+    'userAvatar userInfo'
+    'userAvatar body';
+  grid-template-columns: 0.5fr 5fr;
+  grid-template-rows: 30px 30px auto;
+  line-height: 1.5rem;
+  margin: 30px 0;
+  padding: 15px;
+}
+
+.userAvatar {
+  align-self: center;
+  justify-self: center;
+  grid-area: userAvatar;
+}
+
+.userAvatar,
+.userAvatar * {
+  height: 50px;
+  width: 50px;
+}
+
+.userAvatar img {
+  border-radius: 50px;
+}
+
+.header {
+  grid-area: header;
+  font-weight: bold;
+}
+
+.userInfo {
+  color: #6c757d;
+  display: flex;
+  gap: 20px;
+  grid-area: userInfo;
+  font-size: 13px;
+}
+
+.userInfo .username {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.body {
+  font-size: 14px;
+  grid-area: body;
+  padding-right: 15px;
+}
